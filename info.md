@@ -12,6 +12,8 @@ Time series · Out-of-distribution generalization · LLMs · AI evaluation
 **Email:** y.deng2 [AT] tue.nl
 **Google Scholar:** [View My Papers](https://scholar.google.com/citations?user=4Z1cG28AAAAJ&hl=en)
 **LinkedIn:** [Yuanyuan Deng](https://www.linkedin.com/in/viviandeng001212/)
+**WeChat:**
+<img src="/assets/wechat-qr.png" alt="WeChat QR code" width="160" height="161" style="margin-top:6px">
 
 ## At FMTS @ NeurIPS 2026
 
