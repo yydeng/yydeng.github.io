@@ -18,7 +18,7 @@ Time series · Out-of-distribution generalization · LLMs · AI evaluation
 ## At FMTS @ NeurIPS 2026
 
 - **Put the World Back: Timestamps Matter in Time Series Reasoning** (poster, equal contribution)
-  [Code](https://github.com/tingrui-huang/timestamps-matter)
+  [arXiv](https://arxiv.org/abs/2611.34848) · [Code](https://github.com/tingrui-huang/timestamps-matter)
 - **Diagnosing Information Dependence in Time-Series–Text Alignment** (poster)
 
 ## Education
