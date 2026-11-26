@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Yuanyuan Deng
 permalink: /info/
 ---

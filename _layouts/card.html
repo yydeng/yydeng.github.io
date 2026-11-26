@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }}</title>
+<meta name="description" content="{{ page.title }} · PhD Candidate, Data Mining Group, TU/e">
+<style>
+  :root {
+    --bg: #f4f5f8;
+    --card: #ffffff;
+    --text: #222;
+    --muted: #555;
+    --accent: #2f4f8f;
+    --rule: #dcdfe6;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .card {
+    max-width: 860px;
+    margin: 40px auto;
+    padding: 40px 52px 28px;
+    background: var(--card);
+    border-radius: 12px;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.06);
+  }
+  a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  a:hover { text-decoration: underline; }
+
+  /* Header block: everything before the first section heading */
+  .hero { text-align: center; }
+  .hero h1 {
+    margin: 0 0 6px;
+    color: var(--accent);
+    font-size: 2.3em;
+    line-height: 1.2;
+  }
+  .hero p:first-of-type { color: var(--muted); font-size: 1.05em; margin: 0 0 18px; }
+  .hero p { margin: 0 0 12px; line-height: 2; }
+  .hero img {
+    display: block;
+    width: 170px;
+    height: auto;
+    margin: 8px auto 4px;
+    padding: 6px;
+    background: #fff;
+    border: 2px solid var(--accent);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Sections */
+  h2 {
+    margin: 34px 0 14px;
+    padding-bottom: 6px;
+    color: var(--accent);
+    font-size: 1.45em;
+    line-height: 1.3;
+    border-bottom: 2px solid var(--rule);
+  }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { margin: 0 0 12px; }
+  li:last-child { margin-bottom: 0; }
+
+  /* Footer: the line after the horizontal rule */
+  hr { border: 0; margin: 36px 0 0; }
+  hr + p { text-align: center; color: #777; font-size: 0.9em; margin: 0; }
+
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    .card { margin: 0; padding: 28px 16px 20px; border-radius: 0; box-shadow: none; }
+    .hero h1 { font-size: 2em; }
+    h2 { font-size: 1.3em; margin-top: 28px; }
+  }
+</style>
+</head>
+<body>
+{% assign parts = content | split: '<h2' %}
+<div class="card">
+  <header class="hero">
+{{ parts[0] }}
+  </header>
+  <main>
+{% for part in parts offset: 1 %}<h2{{ part }}{% endfor %}
+  </main>
+</div>
+</body>
+</html>
