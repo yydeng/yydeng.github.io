@@ -28,6 +28,17 @@ Time series · Out-of-distribution generalization · LLMs · AI evaluation
 - **MSc in Mathematics**, National University of Singapore, 2022 – 2024
 - **BSc in Mathematics (Statistics)**, South China University of Technology, 2018 – 2022
 
+## Research Experience
+
+- **Research Assistant**, Robotics and AI Lab (RAIS), National University of Singapore, Jul 2024 – Aug 2025
+  Supervisor: Prof. Vincent Gan
+  Led, as first author, a Gaussian Splatting SLAM system with motion-prior and confidence-aware modules for indoor 3D reconstruction.
+- **Research Intern**, S-Lab, Nanyang Technological University, Feb 2024 – May 2024
+  Processed and annotated datasets for AI-generated content (AIGC) research.
+- **Student Researcher**, Sustainable and Green Finance Institute (SGFIN), National University of Singapore, Apr 2023 – Oct 2023
+  Supervisor: Prof. Weina Zhang
+  Contributed to the Energy Transition Project, published as NUS SGFIN Whitepaper Series #2023-01.
+
 ## Research Interests
 
 - Out-of-distribution generalization and test-time adaptation for time series
