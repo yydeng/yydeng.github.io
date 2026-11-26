@@ -1,0 +1,8 @@
+title: Yuanyuan Deng
+theme: minima
+
+# Keep the single line breaks in info.md as real line breaks
+# (otherwise "Email / Google Scholar / LinkedIn" would run together on one line).
+kramdown:
+  input: GFM
+  hard_wrap: true
